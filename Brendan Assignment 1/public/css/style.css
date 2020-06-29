@@ -1,0 +1,115 @@
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width:100%;
+}
+
+#loginform {
+    margin: auto;
+    width: 10%;
+    grid-template-columns: 0.3fr 1fr;
+    grid-gap: 20px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 10px;
+    align-content: center;
+}
+
+#signupform {
+    margin: auto;
+    width: 10%;
+    grid-template-columns: 0.3fr 1fr;
+    grid-gap: 20px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: 10px;
+    align-content: center;
+}
+
+#logo {
+    width: 10%;
+    height: auto;
+}
+
+#image1 {
+    width: 50%;
+}
+
+#image2 {
+    width: 50%;
+}
+
+#image3 {
+    width: 50%;
+}
+
+#image4 {
+    width: 50%;
+}
+
+#head {
+    background-color: aqua;
+    background-repeat: no-repeat;
+    color: black;
+    width: auto;
+}
+
+#hero {
+    background-image: url("../images/header.jpg");
+    color:whitesmoke;
+    text-decoration: black;
+}
+
+#items0 {
+    float: left;
+    width: 50%;
+}
+
+#items1 {
+    float: right;
+    width: 50%;
+}
+
+#items2 {
+    float: right;
+    width: 50%;
+}
+
+#items3 {
+    float: right;
+    width: 50%;
+}
+
+#items4 {
+    float: left;
+    width: 50%;
+}
+
+#items5 {
+    float: right;
+    width: 50%;
+}
+
+#items6 {
+    float: left;
+    width: 50%;
+}
+
+#items7 {
+    float: right;
+    width: 50%;
+}
+
+#mealfooter {
+    background-color: black;
+    color:white;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width:100%;
+}
