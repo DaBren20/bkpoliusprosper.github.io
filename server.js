@@ -4,7 +4,7 @@ const app = express();
 const expbs = require('express-handlebars');
 const path = require("path");
 //const bodyParser = require('body-parser');
-const PORT = process.env.PORT;
+//const PORT = process.env.PORT;
 //const { check, validationResult } = require('express-validator');
 
 //load the environment variable file
@@ -84,7 +84,7 @@ app.post('/login', (req,res) => {
     }
 });
 
-
-app.listen(POST, () => {
+const PORT = process.env.PORT;
+app.listen(PORT, () => {
     console.log("Express http server listening on: ", PORT);
 });
