@@ -4,7 +4,7 @@ const app = express();
 const expbs = require('express-handlebars');
 const path = require("path");
 //const bodyParser = require('body-parser');
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 //const { check, validationResult } = require('express-validator');
 
 //load the environment variable file
